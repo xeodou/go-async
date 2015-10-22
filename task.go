@@ -37,7 +37,7 @@ type Task struct {
 	Failure failure
 }
 
-func NewTaks(url string, suc success, fail failure) *Task {
+func NewTask(url string, suc success, fail failure) *Task {
 	return &Task{url, suc, fail}
 }
 
